@@ -15,5 +15,10 @@
         .footer{
             grid-row: 4/4;
         }
+}
 
+@media screen and (max-width: 399px){
+    .footer{
+        display: none;
+    }
 }
