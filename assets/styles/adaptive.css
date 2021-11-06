@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 10%  20% 50% 20%;
+        }
+
+        .sidebar{
+            grid-row: 2/2;
+        }
+
+        .main{
+            grid-row: 3/3;
+        }
+
+        .footer{
+            grid-row: 4/4;
+        }
+
+}
